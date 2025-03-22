@@ -1,0 +1,15 @@
+.orange-color{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.price{
+    color:rgb(255, 84, 112)
+}
+.carousel-item{
+    padding: 20px 20px;
+}
+.btn{
+    background-image: linear-gradient(to bottom, #ff6c6c 0%, #ff6c6c 100%);
+    border: none;
+    color: white;
+}
