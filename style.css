@@ -1,4 +1,7 @@
-.orange-color{
+.container{
+    margin-bottom: 100px;
+}
+.orange-bg{
     background-color: #fceae8;
     border-radius: 10px;
 }
@@ -12,4 +15,44 @@
     background-image: linear-gradient(to bottom, #ff6c6c 0%, #ff6c6c 100%);
     border: none;
     color: white;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+.cat1{
+    background-color: #ff6c6c;
+}
+.cat2{
+    background-color: #856cff;
+}
+.cat3{
+    background-color: #87ff6c;
+}
+.container img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    border: none;
+    background-color: #fff;
+}
+#contact{
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
